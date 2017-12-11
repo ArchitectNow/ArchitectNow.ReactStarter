@@ -5,19 +5,12 @@ const logo = require('../logo.svg');
 
 class App extends React.Component {
 
-    doWork() {
-
-        var x;
-
-        x = "Kevin";
-    }
-
   render() {
     return (
       <div className="App">
         <div className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h2 className="App-title">Welcome to KEvin</h2>
+          <h2 className="App-title">Welcome to the ArchitectNow.ReactStarter</h2>
         </div>
         <p className="App-intro">
           To get started, edit <code>src/App.tsx</code> and save to reload.

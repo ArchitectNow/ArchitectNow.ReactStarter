@@ -14,5 +14,5 @@ it('renders without crashing', () => {
 it('is true', () => {
     const contents = enzyme.shallow(<App />);
 
-    expect(contents.find('.App-title').text()).toEqual('Hello Daniel!');
+    expect(contents.find('.App-title').text()).toEqual('Welcome to the ArchitectNow.ReactStarter');
 });
