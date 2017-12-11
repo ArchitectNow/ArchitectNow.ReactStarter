@@ -1,8 +1,6 @@
 # ArchitectNow.ReactStarter
 
-This general structure/setup was initial extracted from the TypeScript-React-Starter found here:
-
-https://github.com/Microsoft/TypeScript-React-Starter
+This general structure/setup was initial extracted from the [TypeScript-React-Starter] (https://github.com/Microsoft/TypeScript-React-Starter).
 
 That project utilizes [Create React App](https://github.com/facebookincubator/create-react-app) for it's core setup.
 
