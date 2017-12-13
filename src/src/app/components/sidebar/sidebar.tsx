@@ -5,13 +5,21 @@ import {Link} from 'react-router-dom';
 export class Sidebar extends React.Component {
 
     render() {
+
         return (
-            <nav className="navbar" role="navigation">
-                <ul className="nav nav-pills nav-stacked">
-                    <li><Link to={'/home'}>Home</Link></li>
-                    <li><Link to={'/people'}>People</Link></li>
+
+            <div>
+                <ul className="navbar-nav">
+
+                    <li className="nav-item">
+                        <Link to={'/shell/home'} className="nav-link">Home</Link>
+                    </li>
+                    <li className="nav-item">
+                        <Link to={'/shell/people'} className="nav-link">People</Link>
+                    </li>
+
                 </ul>
-            </nav>
+            </div>
         );
     }
 }

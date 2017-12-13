@@ -1,16 +1,6 @@
 @import "../../../scss/variables";
 
-:host {
-  width: $sidebar-width;
-  min-width: $sidebar-width;
-  transition: all 0.25s;
-  background: $sidebar-bg;
-  padding-top: 4rem;
-}
-
-
-.nav > li:first-child > a:hover,
-.nav > li:first-child > a:focus {
-  background-color: transparent;
-  text-decoration: none;
+.sidebar {
+  max-width: 200px;
+  min-height: calc(100vh - 58px);
 }

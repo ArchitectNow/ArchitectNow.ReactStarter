@@ -1,27 +1,33 @@
 import * as React from 'react';
 import './App.scss';
-import { Sidebar } from './sidebar/sidebar';
 import {Redirect, Route, Switch} from 'react-router';
-import {People} from './people/people';
-import {Home} from './home/home';
 import {Error} from './error/error';
+import {Shell} from './shell/shell';
+import {Link} from 'react-router-dom';
 
-class App extends React.Component {
+export class App extends React.Component {
 
   render() {
     return (
-      <div>
-          <Sidebar/>
-          <Switch>
-              <Route exact path="/" component={Home}/>
-              <Route path="/home" component={Home} />
-              <Route path="/people" component={People} />
-              <Route path="/error" component={Error} />
-              <Redirect to="/error"/>
-          </Switch>
-      </div>
+        <div>
+            <nav className="navbar navbar-fixed-top navbar-light bg-faded">
+                <a className="navbar-brand">React Demo</a>
+
+                    <ul className="navbar-nav">
+                        <li className="nav-item"><Link to={'/shell/home'} className="nav-link">Home</Link></li>
+                        <li className="nav-item"><Link to={'/error'} className="nav-link">Error</Link></li>
+                    </ul>
+
+            </nav>
+            <div className="container-fluid">
+                <Switch>
+                    <Route exact path="/" component={Shell}/>
+                    <Route path="/shell" component={Shell}/>
+                    <Route path="/error" component={Error} />
+                    <Redirect to="/error"/>
+                </Switch>
+            </div>
+        </div>
     );
   }
 }
-
-export default App;
