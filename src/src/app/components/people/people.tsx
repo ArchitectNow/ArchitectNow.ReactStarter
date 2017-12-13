@@ -2,19 +2,26 @@ import * as React from 'react';
 import './people.scss';
 import {PersonApi} from '../../services/personApi';
 import {Person} from '../../models/person';
-import {PersonRow} from "./personrow";
+import {PersonRow} from './personrow';
 
-export class People extends React.Component {
+class PeopleState {
+    people: Person[];
+}
 
-    private people: Person[];
+export class People extends React.Component<any,PeopleState> {
+
+    constructor(props: any) {
+        super(props);
+        this.setState({people: []});
+    }
 
     componentDidMount() {
         const personApi = new PersonApi();
 
         personApi.getPeople(12).then(data => {
-           this.people = data;
+           this.setState({people: data });
 
-           console.log(`Retrieved ${ this.people.length } people`);
+           console.log(`Retrieved ${ this.state.people.length } people`);
         }).catch(err => {
             console.log(err);
         });
@@ -22,11 +29,19 @@ export class People extends React.Component {
 
     render() {
 
-        const personRows = this.people ? this.people.map(x => <PersonRow person={x}/>)
+        const personRows = this.state ?
+            this.state.people.map(x => {
+                return (
+                    <PersonRow key={x.id} person={x}/>
+                );
+            }) : [];
 
         return (
             <div>
                 <h2>People</h2>
+                <ul>
+                    {personRows}
+                </ul>
             </div>
         );
     }

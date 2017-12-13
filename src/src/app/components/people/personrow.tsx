@@ -1,12 +1,12 @@
 import * as React from 'react';
-import './home.scss';
-import {Person} from '../../models/person';
+import './personrow.scss';
+// import {Person} from '../../models/person';
 
-export class PersonRow extends React.Component<Person,any> {
+export class PersonRow extends React.Component<any, any> {
 
     render() {
         return (
-            <li>{ this.props.nameFirst }</li>
+            <li>{this.props.person.nameFirst}</li>
         );
     }
 }
