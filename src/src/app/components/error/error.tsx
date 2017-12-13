@@ -8,7 +8,8 @@ export class Error extends React.Component {
             <div className="container">
                 <div className="row">
                     <div className="col-xs-12">
-                        <h1>Error</h1>
+                        <h2>Error</h2>
+                        <p>An error has occured in the application.</p>
                     </div>
                 </div>
             </div>

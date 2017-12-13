@@ -7,10 +7,8 @@ export class Sidebar extends React.Component {
     render() {
 
         return (
-
             <div>
                 <ul className="navbar-nav">
-
                     <li className="nav-item">
                         <Link to={'/shell/home'} className="nav-link">Home</Link>
                     </li>

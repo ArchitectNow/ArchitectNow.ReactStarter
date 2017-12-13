@@ -3,7 +3,8 @@ import './shell.scss';
 import {Home} from '../home/home';
 import {People} from '../people/people';
 import {Sidebar} from '../sidebar/sidebar';
-import {Route, Switch} from 'react-router';
+import {Error} from '../error/error';
+import {Redirect, Route, Switch} from 'react-router';
 
 export class Shell extends React.Component {
 
@@ -14,11 +15,19 @@ export class Shell extends React.Component {
                     <Sidebar/>
                 </div>
                 <div className="col">
-                    <Switch>
-                        <Route exact path="/" component={Home}/>
-                        <Route path="/home" component={Home} />
-                        <Route path="/people" component={People} />
-                    </Switch>
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-xs-12">
+                                <Switch>
+                                    <Route path="/shell/home" component={Home} />
+                                    <Route path="/shell/people" component={People} />
+                                    <Route path="/shell/error" component={Error} />
+                                    <Redirect to="/shell/error"/>
+                                </Switch>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         );

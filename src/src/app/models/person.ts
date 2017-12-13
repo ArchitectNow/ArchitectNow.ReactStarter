@@ -3,4 +3,5 @@ export class Person {
     nameLast: string;
     id: string;
     age: number;
+    createdDate: string;
 }
