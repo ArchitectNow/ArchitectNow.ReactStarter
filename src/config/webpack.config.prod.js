@@ -128,6 +128,11 @@ module.exports = {
         enforce: 'pre',
         include: paths.appSrc,
       },
+          {
+              test: /\.scss$/,
+              include: paths.appSrc,
+              loaders: [require.resolve('style-loader'), require.resolve('css-loader'), require.resolve('sass-loader')]
+          },
       {
         test: /\.js$/,
         loader: require.resolve('source-map-loader'),
@@ -219,7 +224,7 @@ module.exports = {
             // it's runtime that would otherwise processed through "file" loader.
             // Also exclude `html` and `json` extensions so they get processed
             // by webpacks internal loaders.
-            exclude: [/\.js$/, /\.html$/, /\.json$/],
+            exclude: [/\.js$/, /\.html$/, /\.json$/, /\.sass$/, /\.scss$/],
             options: {
               name: 'static/media/[name].[hash:8].[ext]',
             },
