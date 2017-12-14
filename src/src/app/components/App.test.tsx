@@ -15,5 +15,10 @@ describe("App", function() {
         ReactDOM.render(<BrowserRouter><App/></BrowserRouter>, div);
     });
 
+    it('renders the correct name', () => {
 
+        const contents = enzyme.render(<App />);
+
+        expect(contents.find('.App-title').text()).toEqual("React Demo");
+    })
 });

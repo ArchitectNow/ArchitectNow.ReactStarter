@@ -4,7 +4,6 @@ import * as enzyme from 'enzyme';
 import * as Adapter from 'enzyme-adapter-react-16';
 import {PersonRow} from './personrow';
 import {Person} from '../../models/person';
-import {MemoryRouter} from 'react-router-dom';
 
 jest.dontMock('./PersonRow');
 jest.dontMock('react-router-dom');
