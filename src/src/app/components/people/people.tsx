@@ -3,18 +3,18 @@ import './people.scss';
 import {PersonApi} from '../../services/personApi';
 import {Person} from '../../models/person';
 import {PersonRow} from './personrow';
-import {observer} from "mobx-react";
+import {observer} from 'mobx-react';
 
 class PeopleState {
     people: Person[];
 }
 
 @observer
-export class People extends React.Component<any,PeopleState> {
+export class People extends React.Component<{},PeopleState> {
 
-    constructor(props: any) {
+    constructor(props: {}) {
         super(props);
-        this.setState({people: []});
+        this.state = {people: []};
     }
 
     componentDidMount() {
@@ -49,6 +49,6 @@ export class People extends React.Component<any,PeopleState> {
     }
 
     onReset() {
-
+        console.log('MobX reset');
     }
 }

@@ -1,8 +1,12 @@
 import * as React from 'react';
 import './personrow.scss';
-// import {Person} from '../../models/person';
+import {Person} from '../../models/person';
 
-export class PersonRow extends React.Component<any, any> {
+export class PersonRowProps {
+    person: Person;
+}
+
+export class PersonRow extends React.Component<PersonRowProps, {}> {
 
     render() {
         return (
