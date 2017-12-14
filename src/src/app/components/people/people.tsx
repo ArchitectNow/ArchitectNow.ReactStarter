@@ -3,11 +3,13 @@ import './people.scss';
 import {PersonApi} from '../../services/personApi';
 import {Person} from '../../models/person';
 import {PersonRow} from './personrow';
+import {observer} from "mobx-react";
 
 class PeopleState {
     people: Person[];
 }
 
+@observer
 export class People extends React.Component<any,PeopleState> {
 
     constructor(props: any) {
@@ -44,5 +46,9 @@ export class People extends React.Component<any,PeopleState> {
                 </ul>
             </div>
         );
+    }
+
+    onReset() {
+
     }
 }

@@ -1,16 +1,19 @@
 import * as React from 'react';
 import './persondetail.scss';
 
-export class PersonDetail extends React.Component {
+export class PersonDetail extends React.Component<any, any> {
+
+    componentDidMount() {
+
+    }
 
     render() {
         return (
-            <div className="container">
-                <div className="row">
-                    <div className="col-xs-12">
-                        <h1>Person Detail</h1>
-                    </div>
-                </div>
+            <div>
+                <h2>Person Detail</h2>
+                <ul>
+
+                </ul>
             </div>
         );
     }

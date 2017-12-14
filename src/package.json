@@ -45,7 +45,9 @@
     "whatwg-fetch": "^2.0.3",
     "enzyme": "^3.2.0",
     "react-addons-test-utils": "^15.6.2",
-    "enzyme-adapter-react-16": "^1.1.0"
+    "enzyme-adapter-react-16": "^1.1.0",
+    "mobx-react": "^4.3.5",
+    "mobx": "^3.4.1"
   },
   "scripts": {
     "start": "node scripts/start.js",
