@@ -15,11 +15,5 @@ describe("App", function() {
         ReactDOM.render(<BrowserRouter><App/></BrowserRouter>, div);
     });
 
-    it('renders the correct title', () => {
-        const contents = enzyme.shallow(<BrowserRouter><App/></BrowserRouter>);
 
-        expect(contents.contains('React Demo')).toEqual(true);
-
-
-    })
 });
