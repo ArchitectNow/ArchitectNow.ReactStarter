@@ -6,9 +6,9 @@ export class PersonDetailState {
     person: Person;
 }
 
-export class PersonDetail extends React.Component<{}, PersonDetailState> {
+export class PersonDetail extends React.Component<{match?: any}, PersonDetailState> {
 
-    constructor(props:{}) {
+    constructor(props:{match: any}) {
         super(props);
     }
 
@@ -16,11 +16,22 @@ export class PersonDetail extends React.Component<{}, PersonDetailState> {
         this.setState({person: new Person()});
     }
 
+    componentDidMount() {
+        const id = this.props.match.params.id;
+
+        const person = new Person();
+        person.id = id;
+
+        this.setState({person: person});
+    }
+
     render() {
         return (
             <div>
                 <h2>Person Detail</h2>
-                <div/>
+                <div>
+                    Id: {this.state.person.id}
+                </div>
             </div>
         );
     }
