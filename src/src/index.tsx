@@ -3,13 +3,10 @@ import * as ReactDOM from 'react-dom';
 import { App } from './app/components/App';
 import registerServiceWorker from './registerServiceWorker';
 import './scss/main.scss';
-import {BrowserRouter} from 'react-router-dom';
 import 'promise/polyfill';
 
 ReactDOM.render((
-    <BrowserRouter>
-        <App/>
-    </BrowserRouter>
+    <App/>
 ),
     document.getElementById('root'));
 

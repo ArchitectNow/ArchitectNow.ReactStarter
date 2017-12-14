@@ -3,7 +3,7 @@ import './App.scss';
 import {Redirect, Route, Switch} from 'react-router';
 import {Error} from './error/error';
 import {Shell} from './shell/shell';
-import {BrowserRouter} from "react-router-dom";
+import {BrowserRouter} from 'react-router-dom';
 
 export class App extends React.Component {
 
