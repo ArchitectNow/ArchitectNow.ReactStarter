@@ -5,6 +5,7 @@ import {People} from '../people/people';
 import {Sidebar} from '../sidebar/sidebar';
 import {Error} from '../error/error';
 import {Redirect, Route, Switch} from 'react-router';
+import {PersonDetail} from '../persondetail/persondetail';
 
 export class Shell extends React.Component {
 
@@ -21,6 +22,7 @@ export class Shell extends React.Component {
                                 <Switch>
                                     <Route path="/shell/home" component={Home} />
                                     <Route path="/shell/people" component={People} />
+                                    <Route path="/shell/persondetail/:id" component={PersonDetail} />
                                     <Route path="/shell/error" component={Error} />
                                     <Redirect to="/shell/error"/>
                                 </Switch>

@@ -14,7 +14,10 @@ export class People extends React.Component<{},PeopleState> {
 
     constructor(props: {}) {
         super(props);
-        this.state = {people: []};
+    }
+
+    componentWillMount() {
+        this.setState({people: []});
     }
 
     componentDidMount() {
