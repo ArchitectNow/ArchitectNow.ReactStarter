@@ -24,7 +24,7 @@ export class People extends React.Component<{},PeopleState> {
         const personApi = new PersonApi();
 
         personApi.getPeople(12).then(data => {
-           this.setState({people: data });
+           //this.setState({people: data });
 
            console.log(`Retrieved ${ this.state.people.length } people`);
         }).catch(err => {
