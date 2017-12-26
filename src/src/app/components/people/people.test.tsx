@@ -6,6 +6,8 @@ import {People} from './people';
 
 jest.dontMock('./People');
 
+jest.mock('PersonApi');
+
 enzyme.configure({ adapter: new Adapter() });
 
 describe("People", function() {

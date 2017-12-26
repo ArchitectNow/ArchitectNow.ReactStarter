@@ -18,9 +18,9 @@ describe("PersonRow", function() {
         person.id = "123";
 
         enzyme.shallow(
-            (<BrowserRouter>
+
                 <PersonRow key={person.id} person={person}/>
-            </BrowserRouter>));
+         );
     });
 
     it('renders the correct name', () => {
@@ -31,9 +31,9 @@ describe("PersonRow", function() {
         person.id = "123";
 
         const contents = enzyme.shallow(
-            (<BrowserRouter>
+
                     <PersonRow key={person.id} person={person}/>
-            </BrowserRouter>));
+          );
 
         expect(contents.contains("Kevin G"));
     })

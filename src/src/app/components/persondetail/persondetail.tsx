@@ -12,6 +12,10 @@ export class PersonDetail extends React.Component<{match?: any}, PersonDetailSta
         super(props);
     }
 
+    getPerson() {
+        return this.state.person;
+    }
+
     componentWillMount() {
         this.setState({person: new Person()});
     }
@@ -25,11 +29,16 @@ export class PersonDetail extends React.Component<{match?: any}, PersonDetailSta
         this.setState({person: person});
     }
 
+    idClicked(id: string)
+    {
+        console.log('Id clicked');
+    }
+
     render() {
         return (
             <div>
                 <h2>Person Detail</h2>
-                <div>
+                <div id="idDisplay" onClick={() => this.idClicked(this.state.person.id)}>
                     Id: {this.state.person.id}
                 </div>
             </div>

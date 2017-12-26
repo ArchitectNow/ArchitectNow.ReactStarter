@@ -17,7 +17,7 @@ describe("App", function() {
 
     it('renders the correct name', () => {
 
-        const contents = enzyme.render(<App />);
+        const contents = enzyme.shallow(<App />);
 
         expect(contents.find('.App-title').text()).toEqual("React Demo");
     })
