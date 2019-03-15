@@ -6,7 +6,7 @@ export const CounterWithHooks: FC = () => {
 
   return (
     <div className={appStyles.Counter}>
-      <h4>Counter with Hooks</h4>
+      <h5>Counter <br/>(Functional Component with Hooks)</h5>
       <p>{count}</p>
       <button onClick={() => setCount(count + 1)}>Increment</button>
       <button disabled={count === 0} onClick={() => setCount(count - 1)}>Decrement</button>
