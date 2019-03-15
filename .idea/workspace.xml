@@ -2,48 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5794b77d-20c1-42b9-a1c9-81899181205b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Counter/Counter.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/CounterWithHooks/CounterWithHooks.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/build/asset-manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/build/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/build/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/build/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/build/service-worker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/build/static/css/main.9a0fe4f1.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/build/static/css/main.9a0fe4f1.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/build/static/js/main.59346da7.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/build/static/js/main.59346da7.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/build/static/media/logo.5d5d9eef.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config/env.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config/jest/cssTransform.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config/jest/fileTransform.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config/jest/typescriptTransform.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config/paths.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config/polyfills.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config/webpack.config.dev.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config/webpack.config.prod.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config/webpackDevServer.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/public/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scripts/build.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scripts/start.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scripts/test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/app/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/app/App.test.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/app/App.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/index.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/registerServiceWorker.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tsconfig.test.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tslint.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CounterWithHooks/CounterWithHooks.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CounterWithHooks/CounterWithHooks.tsx" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -57,10 +17,13 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+        <entry file="file://$PROJECT_DIR$/src/App.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+            <state relative-caret-position="376">
+              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -77,11 +40,11 @@
         <option value="$PROJECT_DIR$/src/components/CounterWithHooks.tsx" />
         <option value="$PROJECT_DIR$/src/components/Counter.tsx" />
         <option value="$PROJECT_DIR$/src/components/Counter/Counter.tsx" />
-        <option value="$PROJECT_DIR$/src/components/CounterWithHooks/CounterWithHooks.tsx" />
-        <option value="$PROJECT_DIR$/src/App.module.scss" />
-        <option value="$PROJECT_DIR$/src/App.tsx" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/App.module.scss" />
+        <option value="$PROJECT_DIR$/src/components/CounterWithHooks/CounterWithHooks.tsx" />
+        <option value="$PROJECT_DIR$/src/App.tsx" />
       </list>
     </option>
   </component>
@@ -102,6 +65,31 @@
             <path>
               <item name="ArchitectNow.ReactStarter" type="b2602c69:ProjectViewProjectNode" />
               <item name="ArchitectNow.ReactStarter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ArchitectNow.ReactStarter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ArchitectNow.ReactStarter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ArchitectNow.ReactStarter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ArchitectNow.ReactStarter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ArchitectNow.ReactStarter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ArchitectNow.ReactStarter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="Counter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ArchitectNow.ReactStarter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ArchitectNow.ReactStarter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="CounterWithHooks" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -146,12 +134,12 @@
       <updated>1552663842340</updated>
       <workItem from="1552663843816" duration="370000" />
       <workItem from="1552675194352" duration="757000" />
-      <workItem from="1552676262208" duration="2533000" />
+      <workItem from="1552676262208" duration="2834000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3660000" />
+    <option name="totallyTimeSpent" value="3961000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -166,7 +154,7 @@
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19080706" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19080706" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -179,7 +167,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="TypeScript" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.31488934" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.31488934" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -222,13 +210,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/react-app-env.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
@@ -240,23 +221,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
           <caret line="25" column="12" lean-forward="true" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.module.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="34" column="19" lean-forward="true" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Counter/Counter.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="46" lean-forward="true" selection-start-line="1" selection-end-line="1" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#34#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -275,30 +239,54 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/CounterWithHooks/CounterWithHooks.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="171">
+          <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
           <folding>
             <element signature="e#0#44#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.tsx">
+    <entry file="file://$PROJECT_DIR$/src/components/Counter/Counter.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="34" column="12" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
+        <state relative-caret-position="209">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
           <folding>
-            <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#0#34#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/src/App.module.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+        <state relative-caret-position="301">
+          <caret line="29" column="3" lean-forward="true" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
