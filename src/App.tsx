@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import styles from './App.module.scss';
-import { Counter } from './components/Counter/Counter';
-import { CounterWithHooks } from './components/CounterWithHooks/CounterWithHooks';
-import { CounterWithState } from './components/CounterWithState/CounterWithState';
+import { Counter, CounterWithHooks, CounterWithState } from './components';
 import logo from './logo.svg';
 
 interface IAppProps {
@@ -31,7 +29,7 @@ class App extends Component<IAppProps, IAppState> {
       <div className={styles.App}>
         <header className={styles.Header}>
           <img src={logo} className={styles.Logo} alt="logo"/>
-
+          <code>Welcome to ArchitectNow.ReactStarter</code>
           <section className={styles.Section}>
             <Counter count={count} increment={this.increment} decrement={this.decrement}/>
             <CounterWithState/>
